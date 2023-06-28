@@ -11,11 +11,11 @@ import random
 
 
 
-driver = webdriver.Chrome(executable_path='H:\Descargas\chromedriver.exe',) 
+driver = webdriver.Chrome(executable_path='H:\Descargas\chromedriver.exe',) ## Replace H:\Descargas\chromedriver.exe with the path where you have chromedriver.exe 
 
 
 
-images =  ["1", "2", "3"] ##REPLACE 1, 2, 3, etc with links to the images separated by commas. 
+images =  ["1", "2", "3"] ## Replace 1, 2, 3, etc with links to the images separated by commas. 
 ## open twitter
 driver.get('https://twitter.com/i/flow/login')
 
